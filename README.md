@@ -90,9 +90,6 @@ This project integrates **Databricks Genie**, enabling users to query data using
 - Revenue significantly increases from September to December  
 - Top-performing products and variants identified  
 - Customer-level insights support targeted business strategies  
-
----
-
 ## 🛠️ Tech Stack
 - Databricks  
 - Apache Spark (PySpark)  
@@ -102,6 +99,3 @@ This project integrates **Databricks Genie**, enabling users to query data using
 - Databricks Genie (AI)  
 - Data Modeling (Fact & Dimension Tables)  
 
----
-
-## 📂 Repository Structure
