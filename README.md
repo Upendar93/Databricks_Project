@@ -6,7 +6,16 @@ FMCG Project
 This project demonstrates an end-to-end data engineering and analytics solution built on Databricks. It processes raw FMCG sales data using scalable ETL pipelines, transforms it into business-ready datasets, and delivers insights through dashboards and AI-powered querying.
 
 ---
+## ☁️ AWS S3 Data Source
 
+Data is stored in AWS S3 with a structured folder hierarchy:
+
+- customers/ → Customer data  
+- products/ → Product data  
+- orders/ → Transaction data  
+- gross_price/ → Pricing data  
+---
+S3 acts as the **raw data source (Bronze layer)** for ingestion into Databricks, enabling scalable and distributed processing.
 ## 🏗️ Architecture (Medallion Model)
 This project follows the **Medallion Architecture**:
 
