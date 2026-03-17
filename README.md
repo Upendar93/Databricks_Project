@@ -14,8 +14,10 @@ Data is stored in AWS S3 with a structured folder hierarchy:
 - products/ → Product data  
 - orders/ → Transaction data  
 - gross_price/ → Pricing data  
----
+
 S3 acts as the **raw data source (Bronze layer)** for ingestion into Databricks, enabling scalable and distributed processing.
+
+---
 ## 🏗️ Architecture (Medallion Model)
 This project follows the **Medallion Architecture**:
 
