@@ -5,19 +5,14 @@ FMCG Project
 ## 📖 Overview
 This project demonstrates an end-to-end data engineering and analytics solution built on Databricks. It processes raw FMCG sales data using scalable ETL pipelines, transforms it into business-ready datasets, and delivers insights through dashboards and AI-powered querying.
 
----
 ## ☁️ AWS S3 Data Source
-
 Data is stored in AWS S3 with a structured folder hierarchy:
-
 - customers/ → Customer data  
 - products/ → Product data  
 - orders/ → Transaction data  
 - gross_price/ → Pricing data  
-
 S3 acts as the **raw data source (Bronze layer)** for ingestion into Databricks, enabling scalable and distributed processing.
 
----
 ## 🏗️ Architecture (Medallion Model)
 This project follows the **Medallion Architecture**:
 
@@ -27,10 +22,7 @@ This project follows the **Medallion Architecture**:
 
 ✔ Implemented using **Delta Lake for reliability and performance**
 
----
-
 ## ⚙️ Data Pipeline (ETL Workflow)
-
 The pipeline is orchestrated using **Databricks Jobs & Workflows**:
 
 - `dim_customers` → Customer data processing  
@@ -41,12 +33,9 @@ The pipeline is orchestrated using **Databricks Jobs & Workflows**:
 ### 🔄 Key Features:
 - Incremental data loading  
 - Modular pipeline design  
-- Optimized transformations using PySpark  
-
----
-
+- Optimized transformations using PySpark
+  
 ## 📊 Dashboard – Sales Insights
-
 An interactive dashboard was built to visualize business performance.
 
 ### 🔑 Key Metrics:
@@ -61,9 +50,6 @@ An interactive dashboard was built to visualize business performance.
 - Monthly Revenue Trend  
 - Top Variants by Revenue  
 - Customer Revenue Analysis  
-
----
-
 ## 🤖 AI-Powered Analytics (Databricks Genie)
 
 This project integrates **Databricks Genie**, enabling users to query data using natural language.
@@ -83,13 +69,12 @@ This project integrates **Databricks Genie**, enabling users to query data using
 - Speeds up decision-making  
 - Makes data accessible to non-technical stakeholders  
 
----
-
 ## 📈 Key Insights
 - Retail channel contributes ~78% of total revenue  
 - Revenue significantly increases from September to December  
 - Top-performing products and variants identified  
-- Customer-level insights support targeted business strategies  
+- Customer-level insights support targeted business strategies
+
 ## 🛠️ Tech Stack
 - Databricks  
 - Apache Spark (PySpark)  
